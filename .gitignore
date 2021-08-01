@@ -1,0 +1,3 @@
+node_modules
+typescript/*.js
+typescript/output
