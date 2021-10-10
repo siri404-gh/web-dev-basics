@@ -99,6 +99,10 @@
 
  - Increment
 
+### DOM
+
+ - Event propagation
+
 ## Typescript
 
  - Variables
