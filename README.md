@@ -8,6 +8,7 @@
  - Array.prototype.apply
  - Array.prototype.bind
  - Array.prototype.debounce
+ - Array.prototype.throttle
 
 ### Array methods
 
