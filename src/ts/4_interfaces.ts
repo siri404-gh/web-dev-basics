@@ -3,7 +3,12 @@ interface Person {
     age: number;
 }
 
-const greet = (person: Person): string => {
+type Person2 = {
+    name: string,
+    age: number
+};
+
+const greet = (person: Person2): string => {
     return 'Hello ' + person.name;
 }
 

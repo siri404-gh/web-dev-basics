@@ -1,4 +1,4 @@
-const Animal = class {
+class Animal {
     protected name: string
 
     protected constructor(name: string) {
@@ -22,4 +22,4 @@ const Lion = class extends Animal {
 
 const lion = new Lion('Simba');
 
-console.log(lion.greet());
+// console.log(lion.greet());

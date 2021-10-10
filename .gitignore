@@ -1,3 +1,9 @@
-node_modules
-typescript/*.js
-typescript/output
+ts/*.js
+ts/output
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

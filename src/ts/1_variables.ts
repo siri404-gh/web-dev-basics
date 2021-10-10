@@ -9,5 +9,4 @@ const arr: number[] = [1, 2, 3 ];
 const arr2: [string, number] = ['a', 2];
 
 // Union
-
 const val: number | string = 10;
