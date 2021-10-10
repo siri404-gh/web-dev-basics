@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <style>
+        .div {
+            width: 100px;
+        }
+
+        .a {
+            padding: 100px;
+            background: green;
+        }
+
+        .b {
+            padding: 100px;
+            background: red;
+        }
+
+        .c {
+            padding: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='div a' onClick="onClick(event, 1)">
+        <div class='div b' onClick="onClick(event, 2)">
+            <div class='div c' onClick="onClick(event, 3)">
+            </div>
+        </div>
+    </div>
+    <script>
+        const onClick = function (ev, num) {
+            ev.stopPropagation();
+            console.log(num);
+        }
+    </script>
+</body>
+
+</html>

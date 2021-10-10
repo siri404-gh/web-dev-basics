@@ -1,5 +1,67 @@
 # web-dev-basics
 
+## Datastructures
+
+ - Stack
+    - pop
+    - peek
+    - push
+    - size
+    - print
+ - Queue
+    - enqueue
+    - dequeue
+    - front
+    - last
+    - isEmpty
+    - size
+    - print
+ - Priority Queue
+    - enqueue
+    - dequeue
+    - front
+    - last
+    - isEmpty
+    - size
+    - print
+ - Set
+    - has
+    - add
+    - index
+    - remove
+    - values
+    - size
+    - union
+    - intersection
+    - difference
+    - subset
+ - Linked list
+    - get
+    - print
+    - printReverse
+    - addToHead
+    - addToTail
+    - addToPos
+    - delete
+    - deleteFromPos
+    - deleteFromPosReverse
+    - deleteDuplicateFromSorted
+    - reverse
+    - mergeSorted
+    - compare
+    - isCyclic
+ - Binary Search tree
+    - add
+    - preOrder
+    - inOrder
+    - postOrder
+    - levelOrder
+    - inOrderIterative
+    - findMin
+    - findMax
+    - isPresent
+    - remove
+
 ## Javascript
 
 ### Function methods
